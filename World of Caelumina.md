@@ -3,7 +3,12 @@ The story of this RPG sets out in the world called Caelumina,"the light that com
 In the old times, people of Caelumina can use the gift of the goddess, "Signa", to help their daily life. As the time goes by, people relies more on the manpower and its knowledge.
 
 # Continent of Alastoria, The Last Settlement of Humanity, Aegon
-The first arc of Caelumina Saga starts on this region, when humanity is in the brink of extinction under the threat of "Synbions", high evolved lifeforms that most of them live in colonies. The continent of Alastoria is a land filled with drylands yet the seasonal rainy seasons doesn't make it any better. No greens seen as far as eyes can see. Only tall fat tree without any leaves exist on this land. On the middle of that, a large fort made of irons stands out like a sore thumb. "Aegon". The name of those pile of irons that serves as the last defense of humanity for the last 500 years after "the Fall". Aegon consists of 5 main districts and a capital area. The five districts serves to provide main resources of the settlement such as agricultures, factories, militaries, entertainment and religion.
+The first arc of Caelumina Saga starts on this region, when humanity is in the brink of extinction under the threat of "Synbions", high evolved lifeforms that most of them live in colonies. The continent of Alastoria is a land filled with drylands yet the seasonal rainy seasons doesn't make it any better. No greens seen as far as eyes can see. Only tall fat tree without any leaves exist on this land. On the middle of that, a large fort made of irons stands out like a sore thumb. "Aegon". The name of those pile of irons that serves as the last defense of humanity for the last 1500 years after "the Fall". Aegon consists of 5 main districts and a capital area. The five districts serves to provide main resources of the settlement such as agricultures, factories, militaries, entertainment and religion.
+## Basic Information
+1) Population (1501AF) : circa 50.000 People
+2) Political system (since 120AF) : Monarchy, lead by the main royal family of Aegon. Minister of Crown filled and performed by royal houses
+3) Area : 1 Main Capital, 5 Main Districts, 5 Residential Areas
+4) Military Power : Argonauts, Mercenary Corps, Local Guards
 ## Social Politic of Aegon
 100 years after "the Fall", people inside the settlement Aegon are reduced to a very significant numbers after the constant struggles against the "Synbions". The following years, rare genetic diseases emerged in middle of population. Professor Arminius, leading scientist and geneticist of the settlement, invented a device that can scan the whole genetic makeups of a person and determine directly whether a person carries a disease in their genes or not. This device allowed the prevention of the defect genes to be passed among the population. But, the synbions evolved much faster than the people of Aegon and started overwhelm the defensive force of the settlement. Caenaan Aegon I, the current head of the settlement aware of this and started proposing the idea using the Ian Arminius's technology of genetic makeups detection to select the most potentially capable and people with good set of genes to be (Golden Traits) selectively paired to produce the good offspring that inherit the best traits. Caenaan then enacted "The Law of Demarcation" on 120AF and then revolutionized the whole social structure of the people of Aegon.
 ### The Law of Demarcation, enacted by Aegon's Head of Settlement, Caenaan Aegon I, before the settlement started to be led by the royalty government, 120AF
@@ -17,3 +22,17 @@ After the enactment of the law, the danger of genetic disease in the population 
 ### Social Impact : Last Name and No Last name
 People with the golden traits are all part of the royal houses and given the last name of their respective house and family. Because of this, people outside the Royal Houses hence without golden traits, don't carry any last name in their name. People of Aegon then split into two factions : Royalty Houses and Commoner. To stabilize the society due to the reformation of this newly formed social structure, Duunan Aegon or King Aegon II, made the royal families especially the four houses of heroes "Argonauts" to pledge for the protection of all the people of Aegon regardless their status and prioritize the safety of the people of all things.
 ## Culture and religion
+
+## Aegon : List of districts and area
+### Capital area
+#### Aegon Palace
+#### Royal Houses Residential area
+#### Aegon Central Health Center and Hospital
+#### Arminius Research Institute
+### Main districts
+#### Agriculture District
+#### Military District
+#### Entertainment District
+#### Production Plants District
+#### Royal Chapel District
+### Residential Areas (Area A-E)
