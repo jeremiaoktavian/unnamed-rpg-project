@@ -7,7 +7,7 @@ The first arc of Caelumina Saga starts on this region, when humanity is in the b
 ## Basic Information
 1) Population (1501AF) : circa 50.000 People
 2) Political system (since 120AF) : Monarchy, lead by the main royal family of Aegon. Minister of Crown filled and performed by royal houses
-3) Area : 1 Main Capital, 5 Main Districts, 5 Residential Areas
+3) Area : 1 Main Capital, 5 Main Districts, 4 Residential Areas
 4) Military Power : Argonauts, Mercenary Corps, Local Guards
 ## Social Politic of Aegon
 100 years after "the Fall", people inside the settlement Aegon are reduced to a very significant numbers after the constant struggles against the "Synbions". The following years, rare genetic diseases emerged in middle of population. Professor Arminius, leading scientist and geneticist of the settlement, invented a device that can scan the whole genetic makeups of a person and determine directly whether a person carries a disease in their genes or not. This device allowed the prevention of the defect genes to be passed among the population. But, the synbions evolved much faster than the people of Aegon and started overwhelm the defensive force of the settlement. Caenaan Aegon I, the current head of the settlement aware of this and started proposing the idea using the Ian Arminius's technology of genetic makeups detection to select the most potentially capable and people with good set of genes to be (Golden Traits) selectively paired to produce the good offspring that inherit the best traits. Caenaan then enacted "The Law of Demarcation" on 120AF and then revolutionized the whole social structure of the people of Aegon.
