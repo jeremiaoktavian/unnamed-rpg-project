@@ -1,0 +1,244 @@
+{
+  "title": "Techtrees",
+  "type": "array",
+  "format": "table",
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "title": "Tree",
+    "properties": {
+      "uid": {
+        "type": "string",
+        "title": "Unique Identifier"
+      },
+      "header": {
+        "type": "string",
+        "title": "Header line"
+      },
+      "tech_description": {
+        "type": "string",
+        "title": "Description"
+      },
+      "icon": {
+        "type": "integer",
+        "title": "Icon Index"
+      },
+      "nodes": {
+        "title": "Techtree Nodes",
+        "type": "array",
+        "format": "table",
+        "uniqueItems": true,
+        "items": {
+          "type": "object",
+          "properties": {
+            "technode": {
+              "type": "object",
+              "title": "Node",
+              "properties": {
+                "uid": {
+                  "type": "string",
+                  "title": "Unique Identifier"
+                },
+                "lane": {
+                  "type": "integer",
+                  "description": "On which lane the tech should appear.",
+                  "title": "Lane"
+                },
+                "depth": {
+                  "type": "integer",
+                  "description": "How deep into the tree the tech should appear.",
+                  "title": "Depth"
+                },
+                "header": {
+                  "type": "string",
+                  "title": "Header line"
+                },
+                "tech_description": {
+                  "type": "string",
+                  "title": "Description"
+                },
+                "parents": {
+                  "type": "array",
+                  "format": "table",
+                  "title": "Parents",
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "object",
+                    "title": "Parent",
+                    "properties": {
+                      "parent": {
+                        "type": "string",
+                        "description": "Unique Identifiers of the parent nodes."
+                      }
+                    }
+                  }
+                },
+                "neededParents": {
+                  "type": "integer",
+                  "default": 0
+                },
+                "visibility": {
+                  "type": "object",
+                  "title": "Visibility Requirements",
+                  "description": "Switches that need to be true for the node to be visible.",
+                  "properties": {
+                    "switches": {
+                      "type": "array",
+                      "format": "table",
+                      "title": "Visibility Requirement Switches",
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "object",
+                        "title": "Switch",
+                        "properties": {
+                          "id": {
+                            "type": "integer",
+                            "title": "Switch ID"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "costs": {
+                  "type": "object",
+                  "title": "Costs",
+                  "properties": {
+                    "gold": {
+                      "type": "integer",
+                      "title": "Gold Cost"
+                    },
+                    "jp": {
+                      "type": "integer",
+                      "title": "JP Cost",
+                      "description": "Requires Yanflys Jobpoints."
+                    },
+                    "items": {
+                      "type": "array",
+                      "format": "table",
+                      "title": "Item Costs",
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "object",
+                        "title": "Item",
+                        "properties": {
+                          "id": {
+                            "type": "integer",
+                            "title": "Item ID"
+                          },
+                          "amount": {
+                            "type": "integer",
+                            "title": "Amount"
+                          }
+                        }
+                      }
+                    },
+                    "weapons": {
+                      "type": "array",
+                      "format": "table",
+                      "title": "Weapon Costs",
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "object",
+                        "title": "Weapon",
+                        "properties": {
+                          "id": {
+                            "type": "integer",
+                            "title": "Weapon ID"
+                          },
+                          "amount": {
+                            "type": "integer",
+                            "title": "Amount"
+                          }
+                        }
+                      }
+                    },
+                    "armors": {
+                      "type": "array",
+                      "format": "table",
+                      "title": "Armor Costs",
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "object",
+                        "title": "Armor",
+                        "properties": {
+                          "id": {
+                            "type": "integer",
+                            "title": "Armor ID"
+                          },
+                          "amount": {
+                            "type": "integer",
+                            "title": "Amount"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "onActivate": {
+                  "type": "object",
+                  "title": "On Activate",
+                  "properties": {
+                    "switches": {
+                      "type": "array",
+                      "format": "table",
+                      "title": "Changes to Switches",
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "object",
+                        "title": "Switch Change",
+                        "properties": {
+                          "id": {
+                            "type": "integer",
+                            "title": "Switch ID"
+                          },
+                          "value": {
+                            "type": "boolean",
+                            "title": "Value",
+                            "default": "false"
+                          }
+                        }
+                      }
+                    },
+                    "skills": {
+                      "type": "array",
+                      "format": "table",
+                      "title": "Learn Skills",
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "integer",
+                        "title": "Skill ID"
+                      }
+                    },
+                    "commonevents": {
+                      "type": "array",
+                      "format": "table",
+                      "title": "Common Events",
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "object",
+                        "title": "Common Event",
+                        "properties": {
+                          "id": {
+                            "type": "integer",
+                            "title": "Common Event ID",
+							"minimum": 1
+                          },
+                          "close": {
+                            "type": "boolean",
+                            "title": "Close Scene On Activate",
+                            "default": "false"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

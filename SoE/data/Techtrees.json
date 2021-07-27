@@ -1,0 +1,3967 @@
+[
+  {
+    "uid": "HERO",
+    "header": "Hero",
+    "tech_description": "",
+    "icon": 76,
+	  "bgimg": "Sword",
+    "nodes": [
+      {
+        "technode": {
+          "uid": "HERO01",
+          "lane": 1,
+          "depth": 1,
+          "header": "Amateur Wielder",
+          "tech_description": "Amateur Heroic Quirk",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              50
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 6
+		}
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "HERO02",
+          "lane": 1,
+          "depth": 2,
+          "header": "Intermediate Warrior",
+          "tech_description": "Advanced Heroic Quirk",
+          "parents": [
+            {
+              "parent": "HERO01"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 136
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 1500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              51
+            ],
+              "commonevents": [
+             {
+               "id": 5,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 6
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "HERO03",
+          "lane": 2,
+          "depth": 3,
+          "header": "Aero Fighting Warrior",
+          "tech_description": "Expert Heroic Quirk",
+          "parents": [
+            {
+              "parent": "HERO02"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 137
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 3000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              52
+            ],
+              "commonevents": [
+             {
+               "id": 6,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 92
+	    }
+          }
+        }
+      },
+        {
+        "technode": {
+          "uid": "HERO04",
+          "lane": 1,
+          "depth": 5,
+          "header": "Final Hero Quirk",
+          "tech_description": "Mastery Heroic Quirk",
+          "parents": [
+            {
+              "parent": "HERO02"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 138
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              53
+            ],
+            "commonevents": [
+             {
+               "id": 7,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 24
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "HERO05",
+          "lane": 2,
+          "depth": 1,
+          "header": "Limit Skill",
+          "tech_description": "Heroic Limit Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 750,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              136
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 6
+		}
+          }
+        }
+      }
+      
+    ]
+  },
+  {
+    "uid": "SLD",
+    "header": "Soldier",
+    "tech_description": "",
+    "icon": 76,
+	  "bgimg": "Sword",
+    "nodes": [
+      {
+        "technode": {
+          "uid": "SLD01",
+          "lane": 1,
+          "depth": 1,
+          "header": "Amateur Wielder",
+          "tech_description": "Amateur Heroic Quirk",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 200,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              50
+            ],
+            "commonevents": [
+             {
+               "id": 8,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 6
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SLD02",
+          "lane": 1,
+          "depth": 2,
+          "header": "Intermediate Warrior",
+          "tech_description": "Advanced Heroic Quirk",
+          "parents": [
+            {
+              "parent": "SLD01"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 136
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              51
+            ],
+             "commonevents": [
+             {
+               "id": 9,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 6
+	    }
+          }
+
+        }
+      },
+      {
+        "technode": {
+          "uid": "SLD03",
+          "lane": 2,
+          "depth": 3,
+          "header": "Aero Fighting Warrior",
+          "tech_description": "Expert Heroic Quirk",
+          "parents": [
+            {
+              "parent": "SLD02"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 137
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 1000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              52
+            ],
+             "commonevents": [
+             {
+               "id": 10,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 92
+	    }
+          }
+        }
+      },
+        {
+        "technode": {
+          "uid": "SLD04",
+          "lane": 1,
+          "depth": 4,
+          "header": "Final Hero Quirk",
+          "tech_description": "Mastery Heroic Quirk",
+          "parents": [
+            {
+              "parent": "SLD02"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 138
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 2500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              53
+            ],
+            "commonevents": [
+             {
+               "id": 11,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 24
+	    }
+          }
+        }
+      },
+	  {
+        "technode": {
+          "uid": "SLD05",
+          "lane": 1,
+          "depth": 5,
+          "header": "Beginner Soldier Quirk",
+          "tech_description": "Beginner Soldiery Ability",
+			"bgimg": "Crystal",
+          "parents": [
+		  	{
+              "parent": "SLD04"
+            }
+		  ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 3000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              57
+            ],
+            "commonevents": [
+             {
+               "id": 12,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SLD06",
+          "lane": 2,
+          "depth": 6,
+          "header": "Advanced Soldiery",
+          "tech_description": "Advanced Soldiery Ability",
+          "parents": [
+            {
+              "parent": "SLD05"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 102
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 3500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              58
+            ],
+           "commonevents": [
+             {
+               "id": 13,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SLD07",
+          "lane": 1,
+          "depth": 7,
+          "header": "Special Soldiery Quirk",
+          "tech_description": "Expert Soldiery Ability",
+          "parents": [
+            {
+              "parent": "SLD05"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 103
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 3500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              59
+            ],
+         "commonevents": [
+             {
+               "id": 14,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SLD08",
+          "lane": 2,
+          "depth": 5,
+          "header": "Limit Skill",
+          "tech_description": "Soldiery Limit Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 3500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              137
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+		}
+          }
+        }
+      }
+    ]
+  },
+   {
+    "uid": "WAR",
+    "header": "Warrior",
+    "tech_description": "",
+    "icon": 76,
+	  "bgimg": "Sword",
+    "nodes": [
+       {
+        "technode": {
+          "uid": "WAR01",
+          "lane": 1,
+          "depth": 1,
+          "header": "Beginner Soldier Quirk",
+          "tech_description": "Beginner Soldiery Ability",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 1000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              57
+            ],
+           "commonevents": [
+             {
+               "id": 15,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "WAR02",
+          "lane": 2,
+          "depth": 2,
+          "header": "Advanced Soldiery",
+          "tech_description": "Advanced Soldiery Ability",
+          "parents": [
+            {
+              "parent": "WAR01"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 102
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 1500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              58
+            ],
+            "commonevents": [
+             {
+               "id": 16,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "WAR03",
+          "lane": 1,
+          "depth": 3,
+          "header": "Special Soldiery Quirk",
+          "tech_description": "Expert Soldiery Ability",
+          "parents": [
+            {
+              "parent": "WAR01"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 103
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 2000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              59
+            ],
+            "commonevents": [
+             {
+               "id": 17,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "WAR04",
+          "lane": 1,
+          "depth": 5,
+          "header": "Amateur Warrior Quirk",
+          "tech_description": "First Warrior Ability",
+          "parents": [
+            {
+              "parent": "WAR03"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 4000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              63
+            ],
+           "commonevents": [
+             {
+               "id": 18,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "WAR05",
+          "lane": 2,
+          "depth": 6,
+          "header": "Hidden Warrior Quirk",
+          "tech_description": "Secret Warrior Ability",
+          "parents": [
+            {
+              "parent": "WAR04"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 104
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              62
+            ],
+            "commonevents": [
+             {
+               "id": 19,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "WAR06",
+          "lane": 1,
+          "depth": 7,
+          "header": "Advanced Warrior Quirk",
+          "tech_description": "Expert Warrior Ability",
+          "parents": [
+            {
+              "parent": "WAR04"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 105
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              64
+            ],
+           "commonevents": [
+             {
+               "id": 20,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "WAR07",
+          "lane": 1,
+          "depth": 9,
+          "header": "Final Warrior Quirk",
+          "tech_description": "Mastery Warrior Ability",
+          "parents": [
+            {
+              "parent": "WAR06"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 106
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 6000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              65
+            ],
+          "commonevents": [
+             {
+               "id": 21,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "WAR08",
+          "lane": 2,
+          "depth": 5,
+          "header": "Limit Skill",
+          "tech_description": "Warrior Limit Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 4500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              138
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+		}
+          }
+        }
+      }
+    ]
+  },
+  {
+    "uid": "FGT",
+    "header": "Fighter",
+    "tech_description": "",
+    "icon": 76,
+	  "bgimg": "Sword",
+    "nodes": [
+      {
+        "technode": {
+          "uid": "FGT01",
+          "lane": 1,
+          "depth": 1,
+          "header": "Amateur Warrior Quirk",
+          "tech_description": "First Warrior Ability",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 1500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              63
+            ],
+          "commonevents": [
+             {
+               "id": 22,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "FGT02",
+          "lane": 2,
+          "depth": 2,
+          "header": "Hidden Warrior Quirk",
+          "tech_description": "Secret Warrior Ability",
+          "parents": [
+            {
+              "parent": "FGT01"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 104
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 2000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              62
+            ],
+         "commonevents": [
+             {
+               "id": 23,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "FGT03",
+          "lane": 1,
+          "depth": 3,
+          "header": "Advanced Warrior Quirk",
+          "tech_description": "Expert Warrior Ability",
+          "parents": [
+            {
+              "parent": "FGT01"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 105
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 2500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              64
+            ],
+          "commonevents": [
+             {
+               "id": 24,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "FGT04",
+          "lane": 1,
+          "depth": 5,
+          "header": "Final Warrior Quirk",
+          "tech_description": "Mastery Warrior Ability",
+          "parents": [
+            {
+              "parent": "FGT03"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 106
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 3000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              65
+            ],
+            "commonevents": [
+             {
+               "id": 25,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "FGT05",
+          "lane": 1,
+          "depth": 6,
+          "header": "Rookie Fighter Quirk",
+          "tech_description": "First Fighter Ability",
+          "parents": [
+            {
+              "parent": "FGT04"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              68
+            ],
+          "commonevents": [
+             {
+               "id": 26,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "FGT06",
+          "lane": 1,
+          "depth": 7,
+          "header": "Advanced Fighter Quirk",
+          "tech_description": "Expert Fighter Ability",
+          "parents": [
+            {
+              "parent": "FGT05"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 107
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              69
+            ],
+              "commonevents": [
+             {
+               "id": 27,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "FGT07",
+          "lane": 2,
+          "depth": 8,
+          "header": "Secret Fighter Quirk",
+          "tech_description": "Hidden Fighter Ability",
+          "parents": [
+            {
+              "parent": "FGT06"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 108
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 7000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              70
+            ],
+           "commonevents": [
+             {
+               "id": 28,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+     {
+        "technode": {
+          "uid": "FGT08",
+          "lane": 2,
+          "depth": 6,
+          "header": "Limit Skill",
+          "tech_description": "Fighter Limit Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              139
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+		}
+          }
+        }
+      }
+    ]
+  },
+    {
+    "uid": "DVN",
+    "header": "Divined Warrior",
+    "tech_description": "",
+    "icon": 1107,
+	  "bgimg": "CrossedSwords",
+    "nodes": [
+      {
+        "technode": {
+          "uid": "DVN01",
+          "lane": 1,
+          "depth": 1,
+          "header": "Amateur Wielder",
+          "tech_description": "Amateur Heroic Quirk",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 2000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              50
+            ],
+             "commonevents": [
+             {
+               "id": 29,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "DVN02",
+          "lane": 1,
+          "depth": 2,
+          "header": "Intermediate Warrior",
+          "tech_description": "Advanced Heroic Quirk",
+          "parents": [
+            {
+              "parent": "DVN01"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 51
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 2500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              51
+            ],
+             "commonevents": [
+             {
+               "id": 30,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "DVN03",
+          "lane": 2,
+          "depth": 3,
+          "header": "Aero Fighting Warrior",
+          "tech_description": "Expert Heroic Quirk",
+          "parents": [
+            {
+              "parent": "DVN02"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 78
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 3000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              52
+            ],
+        "commonevents": [
+             {
+               "id": 31,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+        {
+        "technode": {
+          "uid": "DVN04",
+          "lane": 1,
+          "depth": 4,
+          "header": "Final Hero Quirk",
+          "tech_description": "Mastery Heroic Quirk",
+          "parents": [
+            {
+              "parent": "DVN02"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 101
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 3500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              53
+            ],
+           "commonevents": [
+             {
+               "id": 32,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      	   {
+        "technode": {
+          "uid": "DVN05",
+          "lane": 1,
+          "depth": 5,
+          "header": "Beginner Soldier Quirk",
+          "tech_description": "Beginner Soldiery Ability",
+			"bgimg": "Sword",
+          "parents": [
+		  	{
+              "parent": "DVN04"
+            }
+		  ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 3000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              57
+            ],
+           "commonevents": [
+             {
+               "id": 33,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "DVN06",
+          "lane": 2,
+          "depth": 6,
+          "header": "Advanced Soldiery",
+          "tech_description": "Advanced Soldiery Ability",
+          "parents": [
+            {
+              "parent": "DVN05"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 102
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 4500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              58
+            ],
+           "commonevents": [
+             {
+               "id": 34,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "DVN07",
+          "lane": 1,
+          "depth": 7,
+          "header": "Special Soldiery Quirk",
+          "tech_description": "Expert Soldiery Ability",
+          "parents": [
+            {
+              "parent": "DVN05"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 103
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              59
+            ],
+           "commonevents": [
+             {
+               "id": 35,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+            {
+        "technode": {
+          "uid": "DVN08",
+          "lane": 1,
+          "depth": 8,
+          "header": "Amateur Warrior Quirk",
+          "tech_description": "First Warrior Ability",
+          "parents": [
+            {
+              "parent": "DVN07"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              63
+            ],
+           "commonevents": [
+             {
+               "id": 36,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "DVN09",
+          "lane": 2,
+          "depth": 9,
+          "header": "Hidden Warrior Quirk",
+          "tech_description": "Secret Warrior Ability",
+          "parents": [
+            {
+              "parent": "DVN09"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 104
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 6000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              62
+            ],
+           "commonevents": [
+             {
+               "id": 37,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "DVN10",
+          "lane": 1,
+          "depth": 11,
+          "header": "Advanced Warrior Quirk",
+          "tech_description": "Expert Warrior Ability",
+          "parents": [
+            {
+              "parent": "DVN08"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 105
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 6500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              64
+            ],
+        "commonevents": [
+             {
+               "id": 38,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "DVN11",
+          "lane": 1,
+          "depth": 12,
+          "header": "Final Warrior Quirk",
+          "tech_description": "Mastery Warrior Ability",
+          "parents": [
+            {
+              "parent": "DVN10"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 106
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 7000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              65
+            ],
+            "commonevents": [
+             {
+               "id": 39,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+            {
+        "technode": {
+          "uid": "DVN12",
+          "lane": 1,
+          "depth": 13,
+          "header": "Rookie Fighter Quirk",
+          "tech_description": "First Fighter Ability",
+          "parents": [
+            {
+              "parent": "DVN11"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 7500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              68
+            ],
+            "commonevents": [
+             {
+               "id": 40,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "DVN13",
+          "lane": 1,
+          "depth": 14,
+          "header": "Advanced Fighter Quirk",
+          "tech_description": "Expert Fighter Ability",
+          "parents": [
+            {
+              "parent": "DVN12"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 107
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 8500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              69
+            ],
+            "commonevents": [
+             {
+               "id": 41,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "DVN14",
+          "lane": 2,
+          "depth": 15,
+          "header": "Secret Fighter Quirk",
+          "tech_description": "Hidden Fighter Ability",
+          "parents": [
+            {
+              "parent": "DVN13"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 108
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 9000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              70
+            ],
+           "commonevents": [
+             {
+               "id": 42,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "DVN15",
+          "lane": 1,
+          "depth": 16,
+          "header": "Sacred Divined Warrior Skill",
+          "tech_description": "Final Divined Warrior Ability",
+          "parents": [
+            {
+              "parent": "DVN14"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 109
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 10000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              77
+            ],
+             "commonevents": [
+             {
+               "id": 43,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "DVN16",
+          "lane": 2,
+          "depth": 16,
+          "header": "Limit Skill",
+          "tech_description": "Divined Warrior Limit Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 11000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              140
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+		}
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "DVN17",
+          "lane": 2,
+          "depth": 8,
+          "header": "Limit Skill",
+          "tech_description": "Warrior Limit Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 6000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              138
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+		}
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "DVN18",
+          "lane": 2,
+          "depth": 13,
+          "header": "Limit Skill",
+          "tech_description": "Fighter Limit Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 7000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              139
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+		}
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "DVN19",
+          "lane": 2,
+          "depth": 5,
+          "header": "Limit Skill",
+          "tech_description": "Soldiery Limit Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 4500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              137
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+		}
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "DVN20",
+          "lane": 2,
+          "depth": 1,
+          "header": "Limit Skill",
+          "tech_description": "Heroic Limit Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 4000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              136
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 7
+		}
+          }
+        }
+      }
+    ]
+  },
+  {
+    "uid": "BLKMG",
+    "header": "Black Mage",
+    "tech_description": "",
+    "icon": 133,
+	  "bgimg": "Book",
+    "nodes": [
+      {
+        "technode": {
+          "uid": "BLKMG01",
+          "lane": 1,
+          "depth": 1,
+          "header": "Beginner Black Mage Skills",
+          "tech_description": "First Black Mage Quirk",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              80
+            ],
+           "commonevents": [
+             {
+               "id": 44,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 3
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "BLKMG02",
+          "lane": 1,
+          "depth": 2,
+          "header": "Amateur Sorcerer",
+          "tech_description": "Apprentice Wizard Quirk",
+          "parents": [
+            {
+              "parent": "BLKMG01"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 110
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 1500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              81
+            ],
+            "commonevents": [
+             {
+               "id": 45,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 5
+	    }
+          }
+        }
+      },
+
+      {
+        "technode": {
+          "uid": "BLKMG03",
+          "lane": 2,
+          "depth": 3,
+          "header": "Hidden Sorcerer Skill",
+          "tech_description": "Secret Wizard Quirk",
+          "parents": [
+            {
+              "parent": "BLKMG02"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 111
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 4000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              82
+            ],
+           "commonevents": [
+             {
+               "id": 46,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 87
+	    }
+          }
+        }
+      },
+        {
+        "technode": {
+          "uid": "BLKMG04",
+          "lane": 1,
+          "depth": 4,
+          "header": "Advanced Sorcerer Quirk",
+          "tech_description": "Expert Sorcerer Quirk",
+          "parents": [
+            {
+              "parent": "BLKMG02"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 112
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 4500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              83
+            ],
+           "commonevents": [
+             {
+               "id": 47,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 91
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "BLKMG05",
+          "lane": 1,
+          "depth": 6,
+          "header": "Final Sorcerer Quirk",
+          "tech_description": "Mastery Sorcerer Quirk",
+          "parents": [
+            {
+              "parent": "BLKMG04"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 113
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              84
+            ],
+             "commonevents": [
+             {
+               "id": 48,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 82
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "BLKMG06",
+          "lane": 2,
+          "depth": 1,
+          "header": "Sorcery Skill",
+          "tech_description": "Black Mage Sorcery Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 750,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              143
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 82
+		}
+          }
+        }
+      }
+   ]
+},
+    {
+    "uid": "PYRM",
+    "header": "Pyromancer",
+    "tech_description": "",
+    "icon": 64,
+	  "bgimg": "Book",
+    "nodes": [
+    	{
+        "technode": {
+          "uid": "PYRM01",
+          "lane": 1,
+          "depth": 1,
+          "header": "Beginner Pyromancer Skill",
+          "tech_description": "First Pyromancer Quirk",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 3000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              87
+            ],
+            "commonevents": [
+             {
+               "id": 49,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 67
+	    }
+          }
+        }
+	 },
+    {
+        "technode": {
+          "uid": "PYRM02",
+          "lane": 1,
+          "depth": 2,
+          "header": "Amateur Pyromancer",
+          "tech_description": "Apprentice Pyromancer Quirk",
+          "parents": [
+            {
+              "parent": "PYRM01"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 114
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 3500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              88
+            ],
+             "commonevents": [
+             {
+               "id": 50,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 67
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "PYRM03",
+          "lane": 2,
+          "depth": 3,
+          "header": "Hidden Pyromancer Skill",
+          "tech_description": "Secret Pyromancer Quirk",
+          "parents": [
+            {
+              "parent": "PYRM02"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 115
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              90
+            ],
+           "commonevents": [
+             {
+               "id": 51,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 66
+	    }
+          }
+        }
+      },
+        {
+        "technode": {
+          "uid": "PYRM04",
+          "lane": 1,
+          "depth": 5,
+          "header": "Advanced Pyromancer Quirk",
+          "tech_description": "Expert Pyromancer Quirk",
+          "parents": [
+            {
+              "parent": "PYRM02"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 116
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 4500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              89
+            ],
+            "commonevents": [
+             {
+               "id": 52,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 66
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "PYRM05",
+          "lane": 2,
+          "depth": 1,
+          "header": "Sorcery Skill",
+          "tech_description": "Pyromancer Sorcery Skill",
+	  "bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 3500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              144
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 80
+		}
+          }
+        }
+      }
+      
+  
+    ]
+  },
+  {
+    "uid": "FRSTM",
+    "header": "Frostmancer",
+    "tech_description": "",
+    "icon": 65,
+	  "bgimg": "Book",
+    "nodes": [
+    	{
+        "technode": {
+          "uid": "FRSTM01",
+          "lane": 1,
+          "depth": 1,
+          "header": "Beginner Frostmancer Skill",
+          "tech_description": "First Frostmancer Quirk",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 4000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              93
+            ],
+           "commonevents": [
+             {
+               "id": 53,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 71
+	    }
+          }
+        }
+	 },
+    {
+        "technode": {
+          "uid": "FRSTM02",
+          "lane": 1,
+          "depth": 2,
+          "header": "Amateur Frostmancer",
+          "tech_description": "Apprentice Pyromancer Quirk",
+          "parents": [
+            {
+              "parent": "FRSTM01"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 117
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 4500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              94
+            ],
+            "commonevents": [
+             {
+               "id": 54,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 71
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "FRSTM04",
+          "lane": 2,
+          "depth": 5,
+          "header": "Hidden Frostmancer Skill",
+          "tech_description": "Secret Frostmancer Quirk",
+          "parents": [
+            {
+              "parent": "FRSTM03"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 119
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 6000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              96
+            ],
+             "commonevents": [
+             {
+               "id": 55,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 71
+	    }
+          }
+        }
+      },
+        {
+        "technode": {
+          "uid": "FRSTM03",
+          "lane": 1,
+          "depth": 3,
+          "header": "Advanced Frostmancer Quirk",
+          "tech_description": "Expert Frostmancer Quirk",
+          "parents": [
+            {
+              "parent": "FRSTM02"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 118
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              95
+            ],
+           "commonevents": [
+             {
+               "id": 56,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 72
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "FRSTM04",
+          "lane": 2,
+          "depth": 1,
+          "header": "Sorcery Skill",
+          "tech_description": "Frostmancer Sorcery Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 4500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              145
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 80
+		}
+          }
+        }
+      }
+      
+  
+    ]
+  },
+    {
+    "uid": "ELCTR",
+    "header": "Electromancer",
+    "tech_description": "",
+    "icon": 66,
+	  "bgimg": "Book",
+    "nodes": [
+    	{
+        "technode": {
+          "uid": "ELCTR01",
+          "lane": 1,
+          "depth": 1,
+          "header": "Beginner Electromancer Skill",
+          "tech_description": "First Electromancer Quirk",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              99
+            ],
+           "commonevents": [
+             {
+               "id": 57,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 77
+	    }
+          }
+        }
+	 },
+    {
+        "technode": {
+          "uid": "ELCTR03",
+          "lane": 1,
+          "depth": 3,
+          "header": "Amateur Electromancer",
+          "tech_description": "Apprentice Electromancer Quirk",
+          "parents": [
+            {
+              "parent": "ELCTR01"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 121
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              100
+            ],
+            "commonevents": [
+             {
+               "id": 58,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 77
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "ELCTR02",
+          "lane": 2,
+          "depth": 2,
+          "header": "Hidden Electromancer Skill",
+          "tech_description": "Secret Electromancer Quirk",
+          "parents": [
+            {
+              "parent": "ELCTR01"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 123
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 7000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              102
+            ],
+           "commonevents": [
+             {
+               "id": 59,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 76
+	    }
+          }
+        }
+      },
+        {
+        "technode": {
+          "uid": "ELCTR04",
+          "lane": 1,
+          "depth": 4,
+          "header": "Advanced Electromancer Quirk",
+          "tech_description": "Expert Electromancer Quirk",
+          "parents": [
+            {
+              "parent": "ELCTR03"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 122
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 6500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              101
+            ],
+             "commonevents": [
+             {
+               "id": 60,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 76
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "ELCTR05",
+          "lane": 2,
+          "depth": 1,
+          "header": "Sorcery Skill",
+          "tech_description": "Electromancer Sorcery Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              146
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 80
+		}
+          }
+        }
+      }
+      
+  
+    ]
+  },
+   {
+    "uid": "SACWZ",
+    "header": "Sacred Wizard",
+    "tech_description": "",
+    "icon": 1363,
+	  "bgimg": "Book",
+    "nodes": [
+    	{
+        "technode": {
+          "uid": "SACWZ01",
+          "lane": 1,
+          "depth": 1,
+          "header": "Beginner Black Mage Skills",
+          "tech_description": "First Black Mage Quirk",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 1000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              80
+            ],
+           "commonevents": [
+             {
+               "id": 61,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 3
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SACWZ02",
+          "lane": 1,
+          "depth": 2,
+          "header": "Amateur Sorcerer",
+          "tech_description": "Apprentice Wizard Quirk",
+          "parents": [
+            {
+              "parent": "SACWZ01"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 110
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 1500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              81
+            ],
+          "commonevents": [
+             {
+               "id": 62,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 5
+	    }
+          }
+        }
+      },
+
+      {
+        "technode": {
+          "uid": "SACWZ03",
+          "lane": 2,
+          "depth": 3,
+          "header": "Hidden Sorcerer Skill",
+          "tech_description": "Secret Wizard Quirk",
+          "parents": [
+            {
+              "parent": "SACWZ02"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 111
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 2000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              82
+            ],
+           "commonevents": [
+             {
+               "id": 63,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 87
+	    }
+          }
+        }
+      },
+        {
+        "technode": {
+          "uid": "SACWZ04",
+          "lane": 1,
+          "depth": 4,
+          "header": "Advanced Sorcerer Quirk",
+          "tech_description": "Expert Sorcerer Quirk",
+          "parents": [
+            {
+              "parent": "SACWZ02"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 112
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 3000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              83
+            ],
+            "commonevents": [
+             {
+               "id": 64,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 91
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SACWZ05",
+          "lane": 1,
+          "depth": 6,
+          "header": "Final Sorcerer Quirk",
+          "tech_description": "Mastery Sorcerer Quirk",
+          "parents": [
+            {
+              "parent": "SACWZ04"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 113
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 3500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              84
+            ],
+          "commonevents": [
+             {
+               "id": 65,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 82
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SACWZ06",
+          "lane": 1,
+          "depth": 7,
+          "header": "Beginner Pyromancer Skill",
+          "tech_description": "First Pyromancer Quirk",
+			"bgimg": "Crystal",
+          "parents": [
+		  	{
+			  "parent": "SACWZ05"
+            }
+		  ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 4000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              87
+            ],
+           "commonevents": [
+             {
+               "id": 66,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 67
+	    }
+          }
+        }
+	 },
+    {
+        "technode": {
+          "uid": "SACWZ07",
+          "lane": 1,
+          "depth": 8,
+          "header": "Amateur Pyromancer",
+          "tech_description": "Apprentice Pyromancer Quirk",
+          "parents": [
+            {
+              "parent": "SACWZ06"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 114
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 4500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              88
+            ],
+            "commonevents": [
+             {
+               "id": 67,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 67
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SACWZ08",
+          "lane": 2,
+          "depth": 9,
+          "header": "Hidden Pyromancer Skill",
+          "tech_description": "Secret Pyromancer Quirk",
+          "parents": [
+            {
+              "parent": "SACWZ07"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 115
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              90
+            ],
+          "commonevents": [
+             {
+               "id": 68,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 66
+	    }
+          }
+        }
+      },
+        {
+        "technode": {
+          "uid": "SACWZ09",
+          "lane": 1,
+          "depth": 10,
+          "header": "Advanced Pyromancer Quirk",
+          "tech_description": "Expert Pyromancer Quirk",
+          "parents": [
+            {
+              "parent": "SACWZ07"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 116
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              89
+            ],
+           "commonevents": [
+             {
+               "id": 69,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 66
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SACWZ10",
+          "lane": 1,
+          "depth": 11,
+          "header": "Beginner Frostmancer Skill",
+          "tech_description": "First Frostmancer Quirk",
+			"bgimg": "Crystal",
+          "parents": [
+		   {
+              "parent": "SACWZ09"
+            }
+		  ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 6000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              93
+            ],
+           "commonevents": [
+             {
+               "id": 70,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 72
+	    }
+          }
+        }
+	 },
+    {
+        "technode": {
+          "uid": "SACWZ11",
+          "lane": 1,
+          "depth": 12,
+          "header": "Amateur Frostmancer",
+          "tech_description": "Apprentice Pyromancer Quirk",
+          "parents": [
+            {
+              "parent": "SACWZ10"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 117
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 6500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              94
+            ],
+           "commonevents": [
+             {
+               "id": 71,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 72
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SACWZ13",
+          "lane": 2,
+          "depth": 14,
+          "header": "Hidden Frostmancer Skill",
+          "tech_description": "Secret Frostmancer Quirk",
+          "parents": [
+            {
+              "parent": "SACWZ12"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 119
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 7500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              96
+            ],
+           "commonevents": [
+             {
+               "id": 72,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 71
+	    }
+          }
+        }
+      },
+        {
+        "technode": {
+          "uid": "SACWZ12",
+          "lane": 1,
+          "depth": 13,
+          "header": "Advanced Frostmancer Quirk",
+          "tech_description": "Expert Frostmancer Quirk",
+          "parents": [
+            {
+              "parent": "SACWZ11"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 118
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 7000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              95
+            ],
+           "commonevents": [
+             {
+               "id": 73,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 72
+	    }
+          }
+        }
+      },
+      	{
+        "technode": {
+          "uid": "SACWZ14",
+          "lane": 1,
+          "depth": 15,
+          "header": "Beginner Electromancer Skill",
+          "tech_description": "First Electromancer Quirk",
+			"bgimg": "Crystal",
+          "parents": [
+		   {
+              "parent": "SACWZ12"
+            }
+		  ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 8000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              99
+            ],
+           "commonevents": [
+             {
+               "id": 74,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 77
+	    }
+          }
+        }
+	 },
+    {
+        "technode": {
+          "uid": "SACWZ16",
+          "lane": 1,
+          "depth": 17,
+          "header": "Amateur Electromancer",
+          "tech_description": "Apprentice Electromancer Quirk",
+          "parents": [
+            {
+              "parent": "SACWZ14"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 121
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 8500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              100
+            ],
+            "commonevents": [
+             {
+               "id": 75,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 77
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SACWZ15",
+          "lane": 2,
+          "depth": 16,
+          "header": "Hidden Electromancer Skill",
+          "tech_description": "Secret Electromancer Quirk",
+          "parents": [
+            {
+              "parent": "SACWZ14"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 123
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 8000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              102
+            ],
+          "commonevents": [
+             {
+               "id": 76,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 76
+	    }
+          }
+        }
+      },
+        {
+        "technode": {
+          "uid": "SACWZ17",
+          "lane": 1,
+          "depth": 18,
+          "header": "Advanced Electromancer Quirk",
+          "tech_description": "Expert Electromancer Quirk",
+          "parents": [
+            {
+              "parent": "SACWZ16"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 122
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 9000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              101
+            ],
+             "commonevents": [
+             {
+               "id": 77,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 76
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SACWZ18",
+          "lane": 1,
+          "depth": 20,
+          "header": "Final Sacred Wizard Quirk",
+          "tech_description": "Mastery Sacred Wizard Quirk",
+          "parents": [
+            {
+              "parent": "SACWZ17"
+            }
+          ],
+          "neededParents": 1,
+          "visibility": {
+            "switches": [
+              {
+                "id": 124
+              }
+            ]
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 10000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              108
+            ],
+           "commonevents": [
+             {
+               "id": 78,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 106
+	    }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SACWZ19",
+          "lane": 2,
+          "depth": 1,
+          "header": "Sorcery Skill",
+          "tech_description": "Black Mage Sorcery Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 1500,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              143
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 80
+		}
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SACWZ20",
+          "lane": 2,
+          "depth": 7,
+          "header": "Sorcery Skill",
+          "tech_description": "Pyromancer Sorcery Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 3000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              144
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 80
+		}
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SACWZ21",
+          "lane": 2,
+          "depth": 11,
+          "header": "Sorcery Skill",
+          "tech_description": "Frostmancer Sorcery Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 5000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              145
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 80
+		}
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SACWZ22",
+          "lane": 2,
+          "depth": 15,
+          "header": "Sorcery Skill",
+          "tech_description": "Electromancer Sorcery Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 7000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              146
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 80
+		}
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "SACWZ23",
+          "lane": 2,
+          "depth": 20,
+          "header": "Sorcery Skill",
+          "tech_description": "Sacred Wizard Sorcery Skill",
+			"bgimg": "Crystal",
+          "parents": [],
+          "neededParents": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 10000,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [
+              147
+            ],
+              "commonevents": [
+             {
+               "id": 4,
+               "close": false
+             }
+           ],
+	    "animation": {
+		"id": 80
+		}
+          }
+        }
+      }
+  
+    ]
+  }
+]

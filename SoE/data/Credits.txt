@@ -1,0 +1,63 @@
+Text that appears outside of the block tags
+will not display in the credits scene
+
+<block:-1,-1,10,10,offbot,center,TitleCredits>
+CREDITS
+
+SHARD OF ETERNITY
+Demo Version
+v 0.9.9
+
+\c[3]de' Tree Amigos Production
+2021
+
+
+\c[2]Engine
+RPG Maker MV
+
+\c[2]Story
+Bryan Indra Lukas
+Julian Evan Chrisnanto
+
+\c[2]Game Design
+Julian Evan Chrisnanto
+
+\c[2] Promotion Staff
+Adriel Luis Figo
+
+\c[2]Artwork
+KADOKAWA RPG Maker
+
+\c[2]Special Thanks
+KADOKAWA RPG Maker
+Yoji Ojima Works
+Yanfly Engine
+Moghunter
+SumRndmDde
+Victor Engine
+HimeWorks
+Galv
+RPG Maker Irina
+Shaz Works
+Jocelyn Tang Works
+Jester Works
+Mauricio Pastana Works
+YogiKun Works
+Fallen Angel Olivia
+Aloe Guvner Works
+Blackmorning Works
+Casper Gaming Works
+Triacontane Works
+Rito Works
+Aesica Works
+The Northern Frog Works
+
+
+\c[2]Thanks
+for always supporting us
+
+
+
+
+THE END
+</block>

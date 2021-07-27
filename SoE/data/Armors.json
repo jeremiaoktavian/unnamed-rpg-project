@@ -1,0 +1,23 @@
+[
+null,
+{"id":1,"atypeId":5,"description":"[DEF +10]\nVery common shield. Raise base defense. Shield type.","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":128,"name":"Shield","note":"<Not Independent Item>","params":[0,0,0,10,0,0,0,0],"price":200},
+{"id":2,"atypeId":1,"description":"Very common hat. Raise base defense. Head type\n+10 Defense","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":130,"name":"Hat","note":"<Not Independent Item>","params":[0,0,0,10,0,0,0,0],"price":250},
+{"id":3,"atypeId":3,"description":"[DEF +10]\nVery common cloth. Raise base defense. Body type.","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":135,"name":"Cloth","note":"<Not Independent Item>","params":[0,0,0,10,0,0,0,0],"price":300},
+{"id":4,"atypeId":2,"description":"[M.ATK +20]\nVery common ring. Raise M.Atk. Accessory type.","etypeId":5,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":145,"name":"Ring","note":"<Not Independent Item>","params":[0,0,0,0,20,0,0,0],"price":350},
+{"id":5,"atypeId":5,"description":"[DEF +20]\nMore defensive shield. defensive shield.","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":129,"name":"Steel Shield","note":"<Not Independent Item>","params":[0,0,0,20,0,0,0,0],"price":400},
+{"id":6,"atypeId":2,"description":"[DEF +10/ M.DEF +20]\nVery common robe. Best for mage.","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":138,"name":"Robe","note":"<Not Independent Item>","params":[0,0,0,10,0,20,0,0],"price":350},
+{"id":7,"atypeId":3,"description":"[DEF +35/ M.DEF +5]\nArmor made with best iron.","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":136,"name":"Light Armor","note":"<Not Independent Item>","params":[0,0,0,35,0,5,0,0],"price":750},
+{"id":8,"atypeId":2,"description":"[DEF +15/ M.DEF +30]\nVery common cloak for mage class.","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":139,"name":"Cloak","note":"<Not Independent Item>","params":[0,0,0,15,0,30,0,0],"price":500},
+{"id":9,"atypeId":3,"description":"[DEF +10]\nVery common helmet. Made with bronze.","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":131,"name":"Bronze Helmet","note":"<Not Independent Item>","params":[0,0,0,10,0,0,0,0],"price":500},
+{"id":10,"atypeId":2,"description":"[M.ATK +5/ M.DEF +15/ MAX MP +20]\nVery common head equipment for mage class.","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":133,"name":"Wizard Hat","note":"<Not Independent Item>","params":[0,20,0,0,5,15,0,0],"price":750},
+{"id":11,"atypeId":4,"description":"Special armor, a gift from Gremlin. ","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":137,"name":"Superior Armor","note":"","params":[0,0,0,40,0,0,0,0],"price":0},
+{"id":12,"atypeId":3,"description":"[DEF +60/ M.DEF +20]\nVery rare armor. It's limited.","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":136,"name":"Limit Armor","note":"<Not Independent Item>","params":[0,0,0,60,0,20,0,0],"price":0},
+{"id":13,"atypeId":2,"description":"[DEF +30/ M.DEF +50]\nVery rare cloak. It's limited.","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":139,"name":"Limit Cloak","note":"<Not Independent Item>","params":[0,0,0,30,0,50,0,0],"price":0},
+{"id":14,"atypeId":3,"description":"[DEF +100/ M.DEF +10/ AGI -20]\nPowerful armor. It's very rare. It's very tough armor.","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":137,"name":"Golden Armor","note":"<Not Independent Item>","params":[0,0,0,100,0,10,-20,0],"price":0},
+{"id":15,"atypeId":2,"description":"[DEF +50/ M.ATK +10/ M.DEF +60]\nPowerful cloak. It's very rare. Only one.","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":152,"name":"Golden Cloak","note":"<Not Independent Item>","params":[0,0,0,50,10,60,0,0],"price":0},
+{"id":16,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":17,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":18,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":19,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":20,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0}
+]
